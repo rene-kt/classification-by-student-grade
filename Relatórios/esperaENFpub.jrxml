@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="rankingADM" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="96433acc-3e7e-4d3e-b8d1-e807ab29465f">
+	<property name="ireport.zoom" value="2.1435888100000016"/>
+	<property name="ireport.x" value="82"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="Table Dataset 1" uuid="391d2fbf-0a96-4a6a-be9f-e7cc130b518a"/>
+	<parameter name="parSql" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[$P!{parSql}]]>
+	</queryString>
+	<field name="nome" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="media" class="java.lang.Float">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="escola" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bairro" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<variable name="variable1" class="java.lang.String" calculation="Count"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="90">
+			<staticText>
+				<reportElement x="181" y="0" width="233" height="29" uuid="cf4a821f-8440-4726-8931-48344e3c256d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ESCOLA DE EDUCAÇÃO PROFFISIONAL ALFREDO NUNES DE MELO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="47" width="323" height="20" uuid="56ed74f0-16fc-4807-9942-9697f937d67f"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[LISTA DE ESPERA - CURSO ENFERMAGEM - REDE PÚBLICA]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="20">
+			<elementGroup>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="41" y="0" width="254" height="10" uuid="ee70a813-6c37-457f-a3c6-84c723a51265"/>
+					<box>
+						<pen lineWidth="0.0"/>
+						<topPen lineWidth="0.0"/>
+						<leftPen lineWidth="0.0"/>
+						<bottomPen lineWidth="0.0"/>
+						<rightPen lineWidth="0.0"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<textField>
+				<reportElement x="0" y="0" width="23" height="20" uuid="63274e2a-6a27-4e78-b8bf-cb46a3df1032"/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="23" y="0" width="18" height="20" uuid="b7fa48ab-8b8d-43e7-be15-473d329fd83d"/>
+				<text><![CDATA[-]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="16"/>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

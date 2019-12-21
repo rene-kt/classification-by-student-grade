@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.Tela_rankingController">
+   <children>
+      <ImageView fx:id="imgFundo" fitHeight="641.0" fitWidth="935.0" layoutY="-4.0">
+         <image>
+            <Image url="@../img/Web%201920%20–%205.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="comboBox" layoutX="378.0" layoutY="84.0" onAction="#pegarSelecionado" prefWidth="150.0" promptText="Selecione">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ComboBox>
+      <Button layoutX="542.0" layoutY="81.0" mnemonicParsing="false" onAction="#gerarRelatorio" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: #20603C;" text="Gerar Relatório" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="lista" layoutX="706.0" layoutY="81.0" mnemonicParsing="false" onAction="#gerarLista" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #20603C;" text="Pública" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TableView fx:id="tableView" layoutX="31.0" layoutY="153.0" prefHeight="466.0" prefWidth="818.0">
+        <columns>
+          <TableColumn fx:id="tableNome" prefWidth="236.0" text="Nome do aluno" />
+            <TableColumn fx:id="tableMedia" prefWidth="99.0" text="Média" />
+            <TableColumn fx:id="tableData" prefWidth="142.0" text="Data nascimento" />
+            <TableColumn fx:id="tableEscolaridade" prefWidth="146.0" text="Escolaridade" />
+            <TableColumn fx:id="tableCota" prefWidth="194.0" text="Cota de bairro" />
+        </columns>
+      </TableView>
+      <Button fx:id="lista1" layoutX="827.0" layoutY="81.0" mnemonicParsing="false" onAction="#gerarListaParticular" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: #20603C;" text="Particular" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>

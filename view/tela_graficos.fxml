@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.Tela_graficosController">
+   <children>
+      <ImageView fx:id="imgFundo" fitHeight="640.0" fitWidth="941.0" layoutX="-4.0" layoutY="-4.0">
+         <image>
+            <Image url="@../img/Web%201920%20–%206.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="140.0" text="ADM: " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="195.0" text="ENF: " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="255.0" text="INF: " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="numADM" layoutX="135.0" layoutY="140.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="numENF" layoutX="135.0" layoutY="195.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="numINF" layoutX="135.0" layoutY="255.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="numCota" layoutX="536.0" layoutY="158.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="378.0" text="ADM: " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="433.0" text="ENF: " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="493.0" text="INF: " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="mediaADM" layoutX="145.0" layoutY="378.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="mediaENF" layoutX="145.0" layoutY="433.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="mediaINF" layoutX="145.0" layoutY="493.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="376.0" prefHeight="33.0" prefWidth="171.0" text="PÚBLICA:" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="436.0" layoutY="431.0" text="PARTICULAR: " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="publicaMEDIA" layoutX="659.0" layoutY="378.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="particularMedia" layoutX="659.0" layoutY="431.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

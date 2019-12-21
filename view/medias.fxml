@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MediasController">
+   <children>
+      <ImageView fx:id="imgFundo" fitHeight="633.0" fitWidth="943.0" layoutX="-1.0">
+         <image>
+            <Image url="@../img/tela%20media.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtBiologia6" layoutX="277.0" layoutY="86.0" onKeyReleased="#gerarMediaBiologia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtArtes6" layoutX="277.0" layoutY="53.0" onKeyReleased="#gerarMediaArtes" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtBiologia8" layoutX="487.0" layoutY="86.0" onKeyReleased="#gerarMediaBiologia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtArtes8" layoutX="487.0" layoutY="53.0" onKeyReleased="#gerarMediaArtes" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtArtes9" layoutX="592.0" layoutY="53.0" onKeyReleased="#gerarMediaArtes" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtArtesFinal" layoutX="697.0" layoutY="53.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtBiologia7" layoutX="382.0" layoutY="86.0" onKeyReleased="#gerarMediaBiologia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFisicaFinal" layoutX="697.0" layoutY="218.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtBiologiaFinal" layoutX="697.0" layoutY="86.0" prefHeight="23.0" prefWidth="76.0" />
+      <Button fx:id="btnSalvar" layoutX="782.0" layoutY="572.0" mnemonicParsing="false" onAction="#salvar" opacity="0.0" prefHeight="38.0" prefWidth="141.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextField fx:id="txtEdFisicainal" layoutX="697.0" layoutY="119.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtEdFisica9" layoutX="592.0" layoutY="119.0" onKeyReleased="#gerarMediaEdFisica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtEdFisica8" layoutX="487.0" layoutY="119.0" onKeyReleased="#gerarMediaEdFisica" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="txtEdFisica7" layoutX="382.0" layoutY="119.0" onKeyReleased="#gerarMediaEdFisica" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="txtEdFisica6" layoutX="277.0" layoutY="119.0" onKeyReleased="#gerarMediaEdFisica" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="txtEspanholFinal" layoutX="697.0" layoutY="152.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtEspanhol9" layoutX="591.0" layoutY="152.0" onKeyReleased="#gerarMediaEspanhol" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtEspanhol8" layoutX="487.0" layoutY="152.0" onKeyReleased="#gerarMediaEspanhol" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtEspanhol7" layoutX="382.0" layoutY="152.0" onKeyReleased="#gerarMediaEspanhol" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFilosofiaFinal" layoutX="697.0" layoutY="185.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFilosofia9" layoutX="592.0" layoutY="185.0" onKeyReleased="#gerarMediaFilosofia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFilosofia8" layoutX="487.0" layoutY="185.0" onKeyReleased="#gerarMediaFilosofia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtEspanhol6" layoutX="277.0" layoutY="152.0" onKeyReleased="#gerarMediaEspanhol" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFilosofia7" layoutX="382.0" layoutY="185.0" onKeyReleased="#gerarMediaFilosofia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFilosofia6" layoutX="277.0" layoutY="185.0" onKeyReleased="#gerarMediaFilosofia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFisica9" layoutX="592.0" layoutY="218.0" onKeyReleased="#gerarMediaFisica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeografiaFinal" layoutX="696.0" layoutY="251.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFisica6" layoutX="277.0" layoutY="218.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFisica7" layoutX="382.0" layoutY="218.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtFisica8" layoutX="487.0" layoutY="218.0" onKeyReleased="#gerarMediaFisica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeografia7" layoutX="382.0" layoutY="251.0" onKeyReleased="#gerarMediaGeografia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeografia8" layoutX="487.0" layoutY="251.0" onKeyReleased="#gerarMediaGeografia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeografia9" layoutX="592.0" layoutY="251.0" onKeyReleased="#gerarMediaGeografia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeometria7" layoutX="382.0" layoutY="284.0" onKeyReleased="#gerarMediaGeometria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeometria8" layoutX="487.0" layoutY="284.0" onKeyReleased="#gerarMediaGeometria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtHistoriaFinal" layoutX="696.0" layoutY="317.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeometria9" layoutX="592.0" layoutY="284.0" onKeyReleased="#gerarMediaGeometria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeografia6" layoutX="277.0" layoutY="251.0" onKeyReleased="#gerarMediaGeografia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeometria6" layoutX="277.0" layoutY="284.0" onKeyReleased="#gerarMediaGeometria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtHistoria8" layoutX="487.0" layoutY="317.0" onKeyReleased="#gerarMediaHistoria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtHistoria9" layoutX="592.0" layoutY="317.0" onKeyReleased="#gerarMediaHistoria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtHistoria7" layoutX="382.0" layoutY="317.0" onKeyReleased="#gerarMediaHistoria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtInformatica9" layoutX="592.0" layoutY="350.0" onKeyReleased="#gerarMediaInfor" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtInformaticaFinal" layoutX="696.0" layoutY="350.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtHistoria6" layoutX="277.0" layoutY="317.0" onKeyReleased="#gerarMediaHistoria" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtInformatica6" layoutX="277.0" layoutY="350.0" onKeyReleased="#gerarMediaInfor" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtInformatica7" layoutX="382.0" layoutY="350.0" onKeyReleased="#gerarMediaInfor" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtInformatica8" layoutX="487.0" layoutY="350.0" onKeyReleased="#gerarMediaInfor" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtIngles8" layoutX="487.0" layoutY="383.0" onKeyReleased="#gerarMediaIngles" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtIngles9" layoutX="592.0" layoutY="383.0" onKeyReleased="#gerarMediaIngles" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtInglesFinal" layoutX="696.0" layoutY="383.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtIngles6" layoutX="277.0" layoutY="383.0" onKeyReleased="#gerarMediaIngles" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtIngles7" layoutX="382.0" layoutY="383.0" onKeyReleased="#gerarMediaIngles" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtPortugues9" layoutX="592.0" layoutY="418.0" onKeyReleased="#gerarMediaPortugues" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtPortuguesFinal" layoutX="696.0" layoutY="418.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtBiologia9" layoutX="591.0" layoutY="86.0" onKeyReleased="#gerarMediaBiologia" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtPortugues7" layoutX="382.0" layoutY="418.0" onKeyReleased="#gerarMediaPortugues" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtPortugues8" layoutX="487.0" layoutY="418.0" onKeyReleased="#gerarMediaPortugues" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtPortugues6" layoutX="277.0" layoutY="418.0" onKeyReleased="#gerarMediaPortugues" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtLiteratura6" layoutX="277.0" layoutY="453.0" onKeyReleased="#gerarMediaLiteratura" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtLiteratura7" layoutX="382.0" layoutY="453.0" onKeyReleased="#gerarMediaLiteratura" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtLiteratura8" layoutX="487.0" layoutY="453.0" onKeyReleased="#gerarMediaLiteratura" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtLiteratura9" layoutX="591.0" layoutY="453.0" onKeyReleased="#gerarMediaLiteratura" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtLiteraturaFinal" layoutX="696.0" layoutY="453.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtRedacao8" layoutX="487.0" layoutY="551.0" onKeyReleased="#gerarMediaRedacao" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtRedacao7" layoutX="382.0" layoutY="551.0" onKeyReleased="#gerarMediaRedacao" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtRedacao6" layoutX="277.0" layoutY="551.0" onKeyReleased="#gerarMediaRedacao" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtQuimicaFinal" layoutX="696.0" layoutY="519.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtQuimica9" layoutX="592.0" layoutY="519.0" onKeyReleased="#gerarMediaQuimica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtQuimica8" layoutX="487.0" layoutY="519.0" onKeyReleased="#gerarMediaQuimica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtQuimica7" layoutX="382.0" layoutY="519.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtQuimica6" layoutX="277.0" layoutY="519.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtMatematicaFinal" layoutX="696.0" layoutY="485.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtMatematica9" layoutX="592.0" layoutY="485.0" onKeyReleased="#gerarMediaMatematica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtMatematica8" layoutX="487.0" layoutY="485.0" onKeyReleased="#gerarMediaMatematica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtMatematica7" layoutX="382.0" layoutY="485.0" onKeyReleased="#gerarMediaMatematica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtMatematica6" layoutX="277.0" layoutY="485.0" onKeyReleased="#gerarMediaMatematica" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtValores7" layoutX="382.0" layoutY="586.0" onKeyReleased="#gerarMediaValoresHumanos" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtValores8" layoutX="487.0" layoutY="586.0" onKeyReleased="#gerarMediaValoresHumanos" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtValores9" layoutX="592.0" layoutY="586.0" onKeyReleased="#gerarMediaValoresHumanos" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtValoresFinal" layoutX="696.0" layoutY="586.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtValores6" layoutX="277.0" layoutY="586.0" onKeyReleased="#gerarMediaValoresHumanos" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtRedacao9" layoutX="592.0" layoutY="551.0" onKeyReleased="#gerarMediaRedacao" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtRedacaoFinal" layoutX="696.0" layoutY="551.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtGeometriaFinal" layoutX="696.0" layoutY="284.0" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtMediaFinall" layoutX="816.0" layoutY="292.0" onAction="#gerarMediaFinal" onMouseClicked="#gerarMediaFinal" prefHeight="25.0" prefWidth="83.0" />
+      <TextField fx:id="txtArtes7" layoutX="382.0" layoutY="53.0" onKeyReleased="#gerarMediaArtes" prefHeight="23.0" prefWidth="76.0" />
+      <TextField fx:id="txtId" layoutX="-1.0" layoutY="611.0" opacity="0.05" />
+   </children>
+</Pane>
