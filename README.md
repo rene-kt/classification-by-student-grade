@@ -1,5 +1,9 @@
 # Pre-Matriculas
-Sistema feito para minha própria escola com um gerenciamento de cadastro e listagem por ranking dos alunos.
+Sistema feito para minha própria escola com um gerenciamento de cadastro e listagem por ranking dos alunos. Eram divididos em 4 grupos: 
+- Escola pública ampla concorrência
+- Escola Particular ampla concorrência
+- Escola pública com cota
+- Escola particular com cota 
 
 #### Configuração -> 
 Por mais que o sistema seja bem exclusivo e específico, vou deixar como fazer para que você consiga rodá-lo em seu computador. 
@@ -32,4 +36,10 @@ A escola possuía um sistema de cotas e exigências bem complexo que resultou em
 
  Dessa forma, caso não houvesse o número de pessoas suficientes nas cotas dos  estilos, o sistema fazia o preenchimento auto
 mático, dando toda a autonomia e agilidade do processo que antes era **todo papelado**, e acabou por ficar **automatizado**.
+
+## Como funciona 
+
+1. Um [método](https://pastebin.com/HqTMSxV6) ficava responsável por automizativar o ranking e organizar os critérios de forma dinâmica, por exemplo: 
+> Supondo que na lista dos 32 alunos selecionados para a vaga de escola pública, desses apenas 9 cumprem o requisito de cota, então como diz na regra de negócio que precisam de 10 alunos cotistas, o sistema ficava encarregado de tirar o último da lista e buscar por algum outro que tivesse cota para aí assim completar a regra de negócio. E da mesma forma acontecia com escola de particular, mas só que com menos vagas -> 8 vagas, sendo 2 dessas para alunos cotistas.
+2. O sistema sabia do número de cotas através de outro  [método](https://pastebin.com/5kkkFMeU) que fazia uma busca nos 32 alunos melhores colocados das escola pública e retornava quantos cotistas haviam, para aí fazer a lógica explicada no 1., e da mesma forma acontecia com a escola particular.
 
