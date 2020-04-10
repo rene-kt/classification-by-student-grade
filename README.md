@@ -30,6 +30,6 @@ A escola possuía um sistema de cotas e exigências bem complexo que resultou em
 |   Cotas pública  |      10     |
 | Cotas particular |      2      |
 
- Dessa forma, caso não houvesse o número de pessoas suficientes nas cotas dos respecitivos estilos, o sistema fazia o preenchimento auto
+ Dessa forma, caso não houvesse o número de pessoas suficientes nas cotas dos  estilos, o sistema fazia o preenchimento auto
 mático, dando toda a autonomia e agilidade do processo que antes era **todo papelado**, e acabou por ficar **automatizado**.
 
