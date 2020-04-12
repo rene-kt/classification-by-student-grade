@@ -16,7 +16,7 @@ utilizar ORM que automatiza essa parte do banco de dados.
 - Baixar as respectivas libs de conexão com banco de dados e do iReport que podem ser facilmente encontrados [aqui](https://mvnrepository.com)
 - Para instalação, digite a seguinte linha de código numa pasta de sua preferência utilizando o git bash: 
 ```
-git clone https://github.com/reness0/Pre-Matriculas/edit/master/README.md
+git clone https://github.com/reness0/Pre-Matriculas.git
 ```
 **Ou então baixe o winrar do projeto [aqui](https://github.com/reness0/Pre-Matriculas/archive/master.zip)**
 ## Features 
