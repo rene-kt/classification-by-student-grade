@@ -14,7 +14,11 @@ Por mais que o sistema seja bem exclusivo e específico, vou deixar como fazer p
 - Executar o comando SQL de criação da base de dados e de suas respectivas tarefas, pois como foi meu primeiro projeto, optei por não 
 utilizar ORM que automatiza essa parte do banco de dados.
 - Baixar as respectivas libs de conexão com banco de dados e do iReport que podem ser facilmente encontrados [aqui](https://mvnrepository.com)
-
+- Para instalação, digite a seguinte linha de código numa pasta de sua preferência utilizando o git bash: 
+```
+git clone https://github.com/reness0/Pre-Matriculas/edit/master/README.md
+```
+**Ou então baixe o winrar do projeto [aqui](https://github.com/reness0/Pre-Matriculas/archive/master.zip)**
 ## Features 
 Por se tratar de um sistema de ranking baseada por notas, pode ser usado por escolas no geral ou por qualquer seletiva que tenha como
 critério notas.
